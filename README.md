@@ -2,6 +2,25 @@
 
 A minimal PyTorch implementation of probabilistic diffusion models for 2D datasets. Get started by running `python ddpm.py -h` to explore the available options for training.
 
+## Installation
+
+To set up the environment, you can use the provided `environment.yaml` file. Follow these steps:
+
+1. Ensure you have [Anaconda](https://www.anaconda.com/products/distribution) installed.
+2. Create a new environment using the `environment.yaml` file:
+
+    ```sh
+    conda env create -f environment.yaml
+    ```
+
+3. Activate the newly created environment:
+
+    ```sh
+    conda activate tiny-diffusion
+    ```
+
+This will install all the necessary dependencies to run the code.
+
 ## Forward process
 
 A visualization of the forward diffusion process being applied to a dataset of one thousand 2D points. Note that the dinosaur is not a single training example, it represents each 2D point in the dataset.

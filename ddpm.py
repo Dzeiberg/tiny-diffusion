@@ -10,8 +10,8 @@ from tqdm.auto import tqdm
 import matplotlib.pyplot as plt
 import numpy as np
 
-import datasets
-from positional_embeddings import PositionalEmbedding
+import tiny_diffusion.datasets as datasets
+from tiny_diffusion.positional_embeddings import PositionalEmbedding
 
 
 class Block(nn.Module):
